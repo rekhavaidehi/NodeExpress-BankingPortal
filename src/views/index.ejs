@@ -4,6 +4,9 @@
     <h1><%=title%></h1>
     <a href="/profile">Profile</a>
 </div>
+accounts.map((i)=>{
+    <%- include('summary',{account:i}) %>
+});
 
 <br><a href="/transfer">Transfer</a>
 
