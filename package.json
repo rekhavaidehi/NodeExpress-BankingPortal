@@ -3,15 +3,15 @@
   "version": "0.0.1",
   "description": "Build a Banking Portal with Node & Express",
   "main": "app.js",
-  // "scripts": {
-  //   "start": "nodemon ./src/app.js",
-  //   "test:module1": "cross-env NODE_ENV=test mocha --exit './test/module1/*.spec.js' || true",
-  //   "test:module2": "cross-env NODE_ENV=test mocha --exit './test/module2/*.spec.js' || true",
-  //   "test:module3": "cross-env NODE_ENV=test mocha --exit './test/module3/*.spec.js' || true",
-  //   "test:module4": "cross-env NODE_ENV=test mocha --exit './test/module4/*.spec.js' || true",
-  //   "test:module5": "cross-env NODE_ENV=test mocha --exit './test/module5/*.spec.js' || true",
-  //   "test": "cross-env NODE_ENV=test mocha --exit './test/**/*.spec.js' || true"
-  // },
+  "scripts": {
+    "start": "nodemon ./src/app.js",
+    "test:module1": "cross-env NODE_ENV=test mocha --exit './test/module1/*.spec.js' || true",
+    "test:module2": "cross-env NODE_ENV=test mocha --exit './test/module2/*.spec.js' || true",
+    "test:module3": "cross-env NODE_ENV=test mocha --exit './test/module3/*.spec.js' || true",
+    "test:module4": "cross-env NODE_ENV=test mocha --exit './test/module4/*.spec.js' || true",
+    "test:module5": "cross-env NODE_ENV=test mocha --exit './test/module5/*.spec.js' || true",
+    "test": "cross-env NODE_ENV=test mocha --exit './test/**/*.spec.js' || true"
+  },
 
   "repository": {
     "type": "git",
