@@ -4,8 +4,14 @@ const express=require("express");
 
 const app=new express();
 
-app.set('view',__dirname+'/src/views');
+app.set('views',path.join(__dirname,'views'));
 app.set("view engine","ejs");
-app.use(express.static(__dirname+'src/public'));
+app.use(express.static(path.join(__dirname,'public')));
 
-app.listen(3000);
+ap.get("/",function(req,res){
+    res.render('index',{title:'Index'});
+});
+
+app.listen(3000,()=>{
+    console.log("server running on port 3000");
+});
